@@ -15,7 +15,7 @@ const ListBody = props => {
         </td>
         <td>
           {row.link ? 
-            (<a className="text-info" href={row.link}>{row.product} on Wikipedia</a>) :
+            (<a className="text-info" href={row.link} target="_blank">{row.product} on Wikipedia</a>) :
             (<span lassName="text-muted">no entries in Wikipedia for {row.product}</span>)
           }
         </td>
