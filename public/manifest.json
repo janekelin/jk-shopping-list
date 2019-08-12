@@ -1,0 +1,8 @@
+{
+  "short_name": "Minimalistic shopping list",
+  "name": "A React App that handles a simple shopping list",
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#000000",
+  "background_color": "#ffffff"
+}
